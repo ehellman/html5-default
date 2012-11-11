@@ -6,7 +6,7 @@ This is the default template that I use for all my new projects, feel free to us
 ---
 Clone the repo.
 
-	git clone REPOURL
+	git clone git@github.com:ehellman/html5-default.git
 Install **bourboun** and **neat** gems if neccesary.
 
 	gem install bourboun neat
