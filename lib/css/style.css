@@ -1,0 +1,104 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600);
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; outline: 0; vertical-align: baseline; background: transparent; }
+
+html, body { font-size: 100%; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+
+audio, canvas, video { display: inline-block; }
+
+audio:not([controls]) { display: none; }
+
+[hidden] { display: none; }
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+html, button, input, select, textarea { font-family: sans-serif; }
+
+a:focus { outline: thin dotted; outline: 5px auto -webkit-focus-ring-color; outline-offset: -2px; }
+a:hover, a:active { outline: 0; }
+
+abbr[title] { border-bottom: 1px dotted; }
+
+b, strong { font-weight: bold; }
+
+blockquote { margin: 1em 40px; }
+
+dfn { font-style: italic; }
+
+mark { background: yellow; color: black; }
+
+pre, code, kbd, samp { font-family: monospace, serif; _font-family: "courier new", monospace; font-size: 1em; }
+
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ""; content: none; }
+
+small { font-size: 75%; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+
+sup { top: -0.5em; }
+
+sub { bottom: -0.25em; }
+
+nav ul, nav ol { list-style: none; list-style-image: none; }
+
+img { border: 0; height: auto; max-width: 100%; -ms-interpolation-mode: bicubic; }
+
+svg:not(:root) { overflow: hidden; }
+
+fieldset { border: 1px solid silver; margin: 0 2px; padding: 0.35em 0.625em 0.75em; }
+
+legend { border: 0; padding: 0; white-space: normal; }
+
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; }
+
+button, input { line-height: normal; }
+
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
+
+button[disabled], input[disabled] { cursor: default; }
+
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; }
+
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
+
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+textarea { overflow: auto; vertical-align: top; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+body { font: 1em "Source Sans Pro", sans-serif; line-height: 1.618em; }
+
+a { text-decoration: none; color: #046380; }
+a:hover { color: #0689b1; }
+
+* { margin: 0; padding: 0; }
+
+html, body { height: 100%; }
+
+body:before { content: ""; height: 100%; float: left; width: 0; margin-top: -32767px; }
+
+#wrap { min-height: 100%; }
+
+#main { overflow: auto; padding-bottom: 4.854em; }
+
+footer { position: relative; margin-top: -4.854em; height: 4.854em; clear: both; background: #a7a37e; color: white; }
+
+@media screen and (min-width: 50em) { * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+  @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600);
+  body { font: 1em "Source Sans Pro", sans-serif; line-height: 1.618em; }
+  a { text-decoration: none; color: #046380; }
+  a:hover { color: #0689b1; }
+  #headerplaceholder { zoom: 1; max-width: 64em; text-align: left; margin-left: auto; margin-right: auto; }
+  #headerplaceholder:before, #headerplaceholder:after { content: ""; display: table; }
+  #headerplaceholder:after { clear: both; }
+  #headerplaceholder #brandplaceholder { display: block; float: left; margin-right: 2.35765%; width: 23.23176%; }
+  #headerplaceholder #brandplaceholder:last-child { margin-right: 0; } }

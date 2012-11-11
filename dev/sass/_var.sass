@@ -1,0 +1,28 @@
+// Overrides Neat's default
+$max-width: em(1024)
+// Breakpoints
+$mobile: new-breakpoint(max-width 500px 6)
+
+// Colors
+$baseBlue: #046380
+
+// Typograhy
+// @import url(http://fonts.googleapis.com/css?family=Font+Family+Name:200,300,400,600)
+$body-font-size: 62.5% !default
+$body-line-height: golden-ratio(1em, 1) !default
+$body-font-family: "Helvetica Neue", sans-serif !default
+
+$heading-font-family: "Helvetica Neue", sans-serif !default
+
+body
+  font: $body-font-size $body-font-family
+  line-height: $body-line-height
+
+a
+  text-decoration: none
+  color: $baseBlue
+  &:hover
+    color: lighten($baseBlue, 10%)
+
+// Measurements
+$footerHeight: $body-line-height*3
