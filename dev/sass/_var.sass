@@ -11,18 +11,18 @@ $baseBlue: #046380
 $body-font-size: 62.5% !default
 $body-line-height: golden-ratio(1em, 1) !default
 $body-font-family: "Helvetica Neue", sans-serif !default
-
 $heading-font-family: "Helvetica Neue", sans-serif !default
 
 body
   font: $body-font-size $body-font-family
   line-height: $body-line-height
-
 a
   text-decoration: none
   color: $baseBlue
   &:hover
     color: lighten($baseBlue, 10%)
+button, input
+  font-family: $body-font-family
 
-// Measurements
+// Dimensions
 $footerHeight: $body-line-height*3
