@@ -3,20 +3,23 @@
 //$visual-grid-color: #eee
 //$visual-grid-opacity: 0.4
 
-//FRAMEWORK
-@import "bourbon/bourbon"
-@import "neat/neat"
-//RESET
-@import "reset"
-//BUILD
-@import "var"
+@import "frameworks/bourbon/bourbon"
+@import "frameworks/neat/neat"
 
-@import "320"
+@import "base/reset"
+@import "base/color"
+@import "base/typography"
+@import "base/variables"
+
+// @import "mixins"
+
+// build
+@import "layouts/320"
 @media screen and (min-width: 48em)
-  @import "480"
+  @import "layouts/480"
 @media screen and (min-width: 60em)
-  @import "600"
+  @import "layouts/600"
 @media screen and (min-width: 76em)
-  @import "760"
+  @import "layouts/760"
 @media screen and (min-width: 100em)
-  @import "1000"
+  @import "layouts/1000"
