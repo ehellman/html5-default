@@ -1,0 +1,10 @@
+=respond-to($media)
+  @if $media == wide-handhelds
+    @media only screen and (min-width: 480px) and (max-width: 767px)
+      @content
+  @else if $media == tablets
+    @media only screen and (min-width: 768px) and (max-width: 959px)
+      @content
+  @else if $media == desktop
+    @media only screen and (min-width: 960px)
+      @content

@@ -1,25 +1,22 @@
-// Uncomment this to display gridlines
 //$visual-grid: true
 //$visual-grid-color: #eee
 //$visual-grid-opacity: 0.4
 
+// frameworks and grid settings
 @import "frameworks/bourbon/bourbon"
+@import "frameworks/grid-settings"
 @import "frameworks/neat/neat"
 
+// extensions
+@import "retina-images"
+
+// base
 @import "base/reset"
+@import "base/variables"
 @import "base/color"
 @import "base/typography"
-@import "base/variables"
-
-// @import "mixins"
+@import "base/mixins"
 
 // build
-@import "layouts/320"
-@media screen and (min-width: 48em)
-  @import "layouts/480"
-@media screen and (min-width: 60em)
-  @import "layouts/600"
-@media screen and (min-width: 76em)
-  @import "layouts/760"
-@media screen and (min-width: 100em)
-  @import "layouts/1000"
+@import "layouts/header"
+@import "layouts/footer"
