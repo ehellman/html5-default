@@ -32,6 +32,18 @@ To remove.
 
 	neat remove
 	
+### Build
+- - - - - - -
+Find `watch.sh` in `/dev/` and edit it to fit your project. Then check if it is executable, if not, run:
+
+	chmod +x watch.sh
+
+.. and then to build your stylesheet:
+
+	sh watch.sh
+	
+This produces `style.min.css` inside `/lib/css/`
+	
 ### Documentation
 - - - - - - - - - - - - 
 * [Bourbon](http://http://bourbon.io/)
