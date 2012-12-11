@@ -1,4 +1,4 @@
-Responsive HTML5 Project
+HTML5 Project
 ========================
 This is the default template that I use for all my new projects, feel free to use it however you like.
 
