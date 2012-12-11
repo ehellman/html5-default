@@ -1,3 +1,5 @@
+# https://github.com/joelambert/Retina-Compass-Helpers
+
 module Compass::SassExtensions::Functions::Files
   # Does the supplied image exists?
   def file_exists(image_file)

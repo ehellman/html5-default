@@ -1,4 +1,4 @@
 // standard retina media query
-@mixin retina-display($devicee: 130em, $ratio: 2)
-  @media only screen and (-webkit-min-device-pixel-ratio: $ratio) and ($devicee), screen and (min--moz-device-pixel-ratio: $ratio) and ($devicee), screen and (-o-min-device-pixel-ratio: $ratio/1) and ($devicee), screen and (min-device-pixel-ratio: $ratio) and ($devicee), screen and (min-resolution: 192dpi) and ($devicee), screen and (min-resolution: 2dppx) and ($devicee)
+=retina-display($device-resolution: 130em, $device-pixel-ratio: 2)
+  @media only screen and (-webkit-min-device-pixel-ratio: $device-pixel-ratio) and ($device-resolution), screen and (min--moz-device-pixel-ratio: $device-pixel-ratio) and ($device-resolution), screen and (-o-min-device-pixel-ratio: $device-pixel-ratio/1) and ($device-resolution), screen and (min-device-pixel-ratio: $device-pixel-ratio) and ($device-resolution), screen and (min-resolution: 192dpi) and ($device-resolution), screen and (min-resolution: 2dppx) and ($device-resolution)
     @content

@@ -1,16 +1,20 @@
+// google font
 @import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,900,700)
+
+// define typographic variables
 $body-font-size      : 62.5% !default
 $body-line-height    : golden-ratio(1em, 1) !default
 $body-font-family    : "Helvetica Neue", sans-serif !default
 $heading-font-family : "Helvetica Neue", sans-serif !default
 
+// base
 body
   font: $body-font-size $body-font-family
   line-height: $body-line-height
 a, a:visited
   text-decoration: none
   color: $baseBlue
-  +transition(color 0.5s)
+  +transition(color .5s)
   &:hover
     color: lighten($baseBlue, 10%)
 button, input
@@ -22,23 +26,23 @@ h1,h2,h3,h4,h5,h6
   margin-bottom: $golden-ratio/2 + em
   text-shadow: 0px 1px 3px rgba(0,0,0,.1)
 h1
-  font-size: 2.6em
+  font-size: 260%
   line-height: 1.4em
 h2
-  font-size: 2.4em
+  font-size: 240%
 h3
-  font-size: 2.2em
+  font-size: 220%
 h4
-  font-size: 2em
+  font-size: 200%
 h5
-  font-size: 1.8em
+  font-size: 180%
 h6
-  font-size: 1.6em
+  font-size: 160%
 
 // paragraphs
 p
-  font-size: 1.6em
+  font-size: 160%
   padding-bottom: $body-line-height/2
   &.intro
-    font-size: 1.8em
+    font-size: 180%
     line-height: $golden-ratio + em
